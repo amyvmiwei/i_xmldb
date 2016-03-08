@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerWorkingDirectory>G:\work\res\server\xmldb</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>./ -oldVer 0 -ver 0 -cppPath ..\..\..\Dev\server\ -sqlPath .\sql\ -defFile ..\..\..\Dev\public\packetxml\type.def -workBak .\bak\</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>
